@@ -1,0 +1,167 @@
+
+/*comentário no CSS*/
+body {
+    
+    background-image: url(./img/fundo.jpg)          
+    } 
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: "flex"; /* */
+    flex-direction: row; 
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    font-family: 'Caveat Brush';
+    font-size: 20px;
+}
+
+h1 { 
+    font-size: 50px;
+    text-align: center;
+    color: #E8617D;
+    margin: 10px;
+    font-family: 'Caveat Brush';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: pink;
+}
+  
+nav {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Caveat Brush';
+}
+
+.link {
+    text-decoration: none;
+    color:black
+}
+
+
+.cont-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.fotos{
+    margin: 200px;
+    width: 250px;
+    border-radius: 120px;
+    align-items: center;
+}
+
+.foto{
+    width: 250px;
+    border-radius: 120px;
+    align-items: left;
+}
+
+.pedido
+  ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    font-family: 'Caveat Brush';
+}
+
+li{
+    background-color: pink;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+li:hover{
+    padding: 20px 10px;
+}
+
+.item{
+    color: black;
+}
+
+main{
+    margin-top: 5px;
+    background-color: pink;
+    font-family: 'Caveat Brush';
+    justify-content: center;
+    list-style: none ;
+}
+
+.resilia{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    
+}
+
+ .fotos{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+ }
+
+.aten{
+    margin: 15px;
+    margin-top: 10px;
+    font-family:'Caveat Brush';
+    font-size: 30px;
+    color: #E8617D;
+    text-align: center;
+
+}
+
+.galeria{
+    text-align: center;
+}
+
+.plantinhas{
+    text-align: center;
+    align-items: center;
+    size: 40px;
+}
+
+.lugares{
+    text-align: center;
+    size: 210px;
+}
+
+
+ .musica{
+    margin-top: 300px;
+    text-align: center;
+ }
+
+footer{
+    background-color: pink;
+    margin-top: 100px;
+    padding: 10px 0;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    font-family: 'Caveat Brush';
+    
+}
+
+@media (max-width:500px){
+    .link{
+        font-size: 1rem;
+    }
+}
+
