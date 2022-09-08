@@ -1,0 +1,319 @@
+
+/*comentário no CSS*/
+body {
+    
+    background-image: url(./img/fundo.jpg)          
+    } 
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: "flex"; /* */
+    flex-direction: row; 
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    font-family: 'Caveat Brush';
+    font-size: 20px;
+}
+
+.titulo { 
+    font-size: 50px;
+    text-align: center;
+    color: #E8617D;
+    margin: 10px;
+    font-family: 'Caveat Brush';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: pink;
+}
+
+.frase{
+    margin: 15px;
+    margin-top: 10px;
+    font-family:'Caveat Brush';
+    font-size: 30px;
+    color: #E8617D;
+    text-align: center;
+}
+  
+.autor{
+    text-align: right;
+    padding-right: 200px;
+    font-family:'Caveat Brush';
+    font-size: 25px;
+    color: #E8617D;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Caveat Brush';
+}
+
+.link {
+    text-decoration: none;
+    color:black
+}
+
+
+.cont-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.fotos{
+    margin: 200px;
+    width: 250px;
+    border-radius: 120px;
+    align-items: center;
+}
+
+.eu{
+    width: 250px;
+    height: 350px;
+    border-radius: 120px;
+    align-items: center;
+}
+
+.hhh{
+    width: 300px;
+    height: 300px;
+    border-radius: 120px;
+    align-items: center;
+}
+
+.foto{
+    width: 250px;
+    height: 300px;
+    border-radius: 120px;
+    align-items: center;
+}
+
+.hobbies{
+    text-align: center;
+}
+
+.pedido
+  ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    font-family: 'Caveat Brush';
+}
+
+li{
+    background-color: pink;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+li:hover{
+    padding: 20px 10px;
+}
+
+.item{
+    color: black;
+}
+
+main{
+    margin-top: 5px;
+    background-color: pink;
+    font-family: 'Caveat Brush';
+    justify-content: center;
+    list-style: none ;
+}
+
+.resilia{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    
+}
+
+ .fotos{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+ }
+
+.aten{
+    margin: 15px;
+    margin-top: 10px;
+    font-family:'Caveat Brush';
+    font-size: 30px;
+    color: #E8617D;
+    text-align: center;
+
+}
+
+.galeria{
+    text-align: center;
+}
+
+.plantinhas{
+    text-align: center;
+    align-items: center;
+    size: 40px;
+}
+
+.lugares{
+    text-align: center;
+    size: 210px;
+}
+
+/* Elementos com o ID "titulo" */
+#primeiro {
+    font-family:'Caveat Brush';
+    color: #380B61;
+    margin-left: 7%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family:'Caveat Brush';
+    color: #380B61;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+.tudo {
+    font-family:'Caveat Brush';
+    font-size: 20px;
+    color: #E8617D;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family:'Caveat Brush';
+    font-size: 20px;
+    color: #E8617D;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #E8617D;
+    display: block;
+}
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #E8617D;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: pink;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 20px;
+    background: #E8617D;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: pink;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}
+
+ .musica{
+    margin-top: 150px;
+    text-align: left;
+ }
+
+footer{
+    background-color: pink;
+    margin-top: 70px;
+    padding: 10px 0;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    font-family: 'Caveat Brush';
+    
+}
+
+@media (max-width:500px){
+    .link{
+        font-size: 1rem;
+    }
+}
+

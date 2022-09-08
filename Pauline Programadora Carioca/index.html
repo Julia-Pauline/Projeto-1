@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css"> <!-- lincando a folha do css-->
+    <title>Pauline Julia</title> <!-- nome da página-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+
+<body><!-- corpo-->
+<header> <!-- cabeçalho-->
+        
+    <p class="titulo">Pauline Julia</p>
+    <p class="frase">
+        <br>“Eu não sou um produto de minhas circunstâncias. Eu sou um produto de minhas decisões” 
+    </p>
+    
+        <p class="autor">– Stephen Covey</p>
+   
+                 
+    <div class="cont-1">
+       <img class="fotos" src="img/minha foto.jfif"> 
+    </div>
+        
+    <div class="pedido"> 
+       <ul>
+           <li>
+           <p class="item">escritos</p>
+           </li>
+
+           <li>
+           <p class="item">contato</p>
+           </li>
+
+           <li>
+           <p class="item">altura</p>
+           </li>
+        </ul>
+    </div>
+    
+</header><!-- cabeçalho-->
+   
+    <main> <!--conteúdo principal--> 
+    
+    <div class="resilia">
+        <p>Julia Pauline de Arruda Silva Rangel
+        <p><br>22 anos</br> </p>
+        <p><br>Campo Grande RJ</br> </p>
+        <p><br>Desenvolvedora Full Stack</br> </p>
+        <p><br>Cursando licenciatura em Educação Física - UFRJ</br> </p>          
+    </div>
+</main> <!--conteúdo principal--> 
+
+    <div class="aten">
+        <br><p>Confira algumas fotos minhas; plantinhas que eu gosto; hobbies e lugares que gostaria conhecer:</p>
+    </div>
+
+    <div class="galeria">
+        <img class="eu" src="img/WhatsApp Image 2022-09-04 at 15.45.14 (1).jpeg">
+        <img class="eu" src="img/WhatsApp Image 2022-09-04 at 15.45.14 (2).jpeg">
+        <img class="eu" src="img/eu3.jpeg">
+        <img class="eu" src="img/eu1 (1).jpeg">
+        <img class="eu" src="img/WhatsApp Image 2022-09-04 at 15.45.14.jpeg">
+     </div>
+
+     <div class="hobbies">
+         <img class="hhh" src="img/ioga.jpg">
+         <img class="hhh" src="img/esgrima.jpg.crdownload">
+         <img class="hhh" src="img/natação.jpg">
+         <img class="hhh" src="img/tenis.png">
+     </div>
+        
+     <div class="plantinhas">
+        <img class="foto" src="img/copodeleite.jpg">
+        <img class="foto" src="img/tulipavermelha.jpg">
+        <img class="foto" src="img/girassol.jpg">
+        <img class="foto" src="img/orquideaazul.webp">
+        <img class="foto" src="img/rosarosa.jpg">
+     </div>
+
+     <div class="lugares">
+        <img class="foto" src="img/cristo.jpeg">
+        <img class="foto" src="img/coliseu.jpg">
+        <img class="foto" src="img/Paris.jpg">
+        <img class="foto" src="img/times.png">
+        <img class="foto" src="img/cusco.jpg">
+     </div>
+
+        <form>
+            <div class="tudo">
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Instituição de ensino</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Senac</option>
+                  <option>Cisco</option>
+                  <option>Generation</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4"> PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5"> C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6"> Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia7"> Java</label>
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+        </div>
+        </form>
+            
+        <div class="musica">
+            <audio controls autoPlay>
+                <source src="musica.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+                <!--comentário, não aparece na página-->
+           
+    
+    <footer> <!-- rodapé-->
+        <nav> <!--nav significa que será direcionado para uma navegação-->
+        <a class="link" href="https://www.linkedin.com/in/pauline-rangel-43a28a248/" target="_blank">Linkedin</a>
+        </nav><!--nav significa que será direcionado para uma navegação-->
+
+        <p class="footer"><b> Desenvolvido por Pauline Julia</b></p>
+    </footer> <!-- rodapé-->
+
+</body><!-- corpo-->
+</html>
